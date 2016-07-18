@@ -21,9 +21,18 @@
 		E71618701D3A1CDD00A13091 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E716186F1D3A1CDD00A13091 /* Constants.swift */; };
 		E71618721D3A263700A13091 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71618711D3A263700A13091 /* MaterialButton.swift */; };
 		E71618741D3A2EFF00A13091 /* MaterialTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71618731D3A2EFF00A13091 /* MaterialTF.swift */; };
+		E7C9BE731D3B80C900397D10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7C9BE721D3B80C900397D10 /* GoogleService-Info.plist */; };
+		E7F5A4101D3B8737004639DF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F5A40F1D3B8737004639DF /* FBSDKCoreKit.framework */; };
+		E7F5A4121D3B874C004639DF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F5A4111D3B874C004639DF /* FBSDKLoginKit.framework */; };
+		E7F5A4141D3B8772004639DF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F5A4131D3B8772004639DF /* FBSDKShareKit.framework */; };
+		E7F5A4191D3B9759004639DF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F5A4181D3B9759004639DF /* Bolts.framework */; };
+		FD3AF891CE7E7B15BF3658CC /* Pods_socBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88889FD589C6C7B7769EA0A1 /* Pods_socBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DDCCF6A0A1D902DFC3957B0 /* Pods-socBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socBook/Pods-socBook.debug.xcconfig"; sourceTree = "<group>"; };
+		88889FD589C6C7B7769EA0A1 /* Pods_socBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_socBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A690C6DDD96F0E53BC20B9AC /* Pods-socBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-socBook/Pods-socBook.release.xcconfig"; sourceTree = "<group>"; };
 		E71618481D3A15F500A13091 /* socBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E716184B1D3A15F500A13091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E716184D1D3A15F500A13091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +49,12 @@
 		E716186F1D3A1CDD00A13091 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E71618711D3A263700A13091 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		E71618731D3A2EFF00A13091 /* MaterialTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTF.swift; sourceTree = "<group>"; };
+		E7C9BE721D3B80C900397D10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7F5A40F1D3B8737004639DF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E7F5A4111D3B874C004639DF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E7F5A4131D3B8772004639DF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		E7F5A4151D3B8A0F004639DF /* socBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "socBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7F5A4181D3B9759004639DF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +62,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F5A4191D3B9759004639DF /* Bolts.framework in Frameworks */,
+				E7F5A4141D3B8772004639DF /* FBSDKShareKit.framework in Frameworks */,
+				FD3AF891CE7E7B15BF3658CC /* Pods_socBook.framework in Frameworks */,
+				E7F5A4101D3B8737004639DF /* FBSDKCoreKit.framework in Frameworks */,
+				E7F5A4121D3B874C004639DF /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05C85100C470F6B60E219CFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DDCCF6A0A1D902DFC3957B0 /* Pods-socBook.debug.xcconfig */,
+				A690C6DDD96F0E53BC20B9AC /* Pods-socBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F2CF96693A31357E1BC9383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7F5A4181D3B9759004639DF /* Bolts.framework */,
+				E7F5A4131D3B8772004639DF /* FBSDKShareKit.framework */,
+				E7F5A4111D3B874C004639DF /* FBSDKLoginKit.framework */,
+				E7F5A40F1D3B8737004639DF /* FBSDKCoreKit.framework */,
+				88889FD589C6C7B7769EA0A1 /* Pods_socBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E716183F1D3A15F400A13091 = {
 			isa = PBXGroup;
 			children = (
 				E716184A1D3A15F500A13091 /* socBook */,
 				E71618491D3A15F500A13091 /* Products */,
+				05C85100C470F6B60E219CFA /* Pods */,
+				0F2CF96693A31357E1BC9383 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,8 +125,10 @@
 				E716184F1D3A15F500A13091 /* Main.storyboard */,
 				E71618551D3A15F500A13091 /* Assets.xcassets */,
 				E71618571D3A15F500A13091 /* LaunchScreen.storyboard */,
+				E7C9BE721D3B80C900397D10 /* GoogleService-Info.plist */,
 				E716185A1D3A15F500A13091 /* Info.plist */,
 				E71618521D3A15F500A13091 /* socBook.xcdatamodeld */,
+				E7F5A4151D3B8A0F004639DF /* socBook-Bridging-Header.h */,
 			);
 			path = socBook;
 			sourceTree = "<group>";
@@ -138,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E716185D1D3A15F500A13091 /* Build configuration list for PBXNativeTarget "socBook" */;
 			buildPhases = (
+				6F3536DA2D46DCF201C6558B /* [CP] Check Pods Manifest.lock */,
 				E71618441D3A15F400A13091 /* Sources */,
 				E71618451D3A15F400A13091 /* Frameworks */,
 				E71618461D3A15F400A13091 /* Resources */,
+				ACE66FC0515AE4CCD7B91E88 /* [CP] Embed Pods Frameworks */,
+				513697D9CFE56F6672EC2917 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71618681D3A16E100A13091 /* NotoSans-Bold.ttf in Resources */,
+				E7C9BE731D3B80C900397D10 /* GoogleService-Info.plist in Resources */,
 				E71618591D3A15F500A13091 /* LaunchScreen.storyboard in Resources */,
 				E71618691D3A16E100A13091 /* NotoSans-BoldItalic.ttf in Resources */,
 				E716186A1D3A16E100A13091 /* NotoSans-Italic.ttf in Resources */,
@@ -201,6 +250,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		513697D9CFE56F6672EC2917 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-socBook/Pods-socBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F3536DA2D46DCF201C6558B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE66FC0515AE4CCD7B91E88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-socBook/Pods-socBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E71618441D3A15F400A13091 /* Sources */ = {
@@ -326,23 +423,38 @@
 		};
 		E716185E1D3A15F500A13091 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDCCF6A0A1D902DFC3957B0 /* Pods-socBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = socBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = glasby.socBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "socBook/socBook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E716185F1D3A15F500A13091 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A690C6DDD96F0E53BC20B9AC /* Pods-socBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = socBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = glasby.socBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "socBook/socBook-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -365,6 +477,7 @@
 				E716185F1D3A15F500A13091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
