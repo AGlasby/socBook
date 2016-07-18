@@ -6,5 +6,7 @@ target 'socBook' do
   use_frameworks!
 
   # Pods for socBook
-  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 end

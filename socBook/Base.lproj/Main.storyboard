@@ -130,7 +130,7 @@
                                         </constraints>
                                         <color key="textColor" white="0.0" alpha="0.54000000000000004" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze3-Fz-G8B" customClass="MaterialButton" customModule="socBook" customModuleProvider="target">
                                         <rect key="frame" x="195" y="193.5" width="170" height="30"/>
@@ -149,6 +149,9 @@
                                                 <exclude reference="2KF-Gu-9TQ"/>
                                             </mask>
                                         </variation>
+                                        <connections>
+                                            <action selector="loginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ou5-Li-w5d"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -186,10 +189,33 @@
                             <constraint firstItem="qxB-C5-uOy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="maT-H0-sUb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTxtFld" destination="TCv-So-HBG" id="rop-6f-BzF"/>
+                        <outlet property="passwordTxtFld" destination="atR-M0-1JJ" id="xp8-pa-6Cp"/>
+                        <segue destination="DJL-dm-iNV" kind="show" identifier="loggedIn" id="v9A-oC-wpZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="387"/>
+            <point key="canvasLocation" x="163" y="376"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cgo-xc-H7B">
+            <objects>
+                <viewController id="DJL-dm-iNV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jaS-nu-ah0"/>
+                        <viewControllerLayoutGuide type="bottom" id="bC5-y6-aee"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hL7-Ql-zTw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z9r-sw-5Cr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="864" y="376"/>
         </scene>
     </scenes>
     <resources>
