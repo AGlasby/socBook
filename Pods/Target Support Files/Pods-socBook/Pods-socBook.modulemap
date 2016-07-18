@@ -1,0 +1,6 @@
+framework module Pods_socBook {
+  umbrella header "Pods-socBook-umbrella.h"
+
+  export *
+  module * { export * }
+}
