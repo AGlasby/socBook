@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import Firebase
 
 class PostCell: UITableViewCell {
 
     @IBOutlet weak var profileImg: UIImageView!
-        @IBOutlet weak var showcaseImg: UIImageView!
+    @IBOutlet weak var showcaseImg: UIImageView!
+    
+//    var post: Post!
+//    var request: Request?
+//    var likeRef: FIRDatabaseReference!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
