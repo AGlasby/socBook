@@ -22,6 +22,8 @@
 		E71618701D3A1CDD00A13091 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E716186F1D3A1CDD00A13091 /* Constants.swift */; };
 		E71618721D3A263700A13091 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71618711D3A263700A13091 /* MaterialButton.swift */; };
 		E71618741D3A2EFF00A13091 /* MaterialTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71618731D3A2EFF00A13091 /* MaterialTF.swift */; };
+		E79FF44A1D3E104700B8B424 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF4491D3E104700B8B424 /* FeedVC.swift */; };
+		E79FF44C1D3E11E800B8B424 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FF44B1D3E11E800B8B424 /* PostCell.swift */; };
 		E7C9BE731D3B80C900397D10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7C9BE721D3B80C900397D10 /* GoogleService-Info.plist */; };
 		E7F5A4101D3B8737004639DF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F5A40F1D3B8737004639DF /* FBSDKCoreKit.framework */; };
 		E7F5A4121D3B874C004639DF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F5A4111D3B874C004639DF /* FBSDKLoginKit.framework */; };
@@ -49,6 +51,8 @@
 		E716186F1D3A1CDD00A13091 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E71618711D3A263700A13091 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		E71618731D3A2EFF00A13091 /* MaterialTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTF.swift; sourceTree = "<group>"; };
+		E79FF4491D3E104700B8B424 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		E79FF44B1D3E11E800B8B424 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		E7C9BE721D3B80C900397D10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E7F5A40F1D3B8737004639DF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		E7F5A4111D3B874C004639DF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -124,7 +128,6 @@
 				E71618611D3A16B600A13091 /* View */,
 				E71618601D3A16AC00A13091 /* Controller */,
 				E716184B1D3A15F500A13091 /* AppDelegate.swift */,
-				E716184D1D3A15F500A13091 /* ViewController.swift */,
 				E716184F1D3A15F500A13091 /* Main.storyboard */,
 				E71618551D3A15F500A13091 /* Assets.xcassets */,
 				E71618571D3A15F500A13091 /* LaunchScreen.storyboard */,
@@ -139,6 +142,8 @@
 		E71618601D3A16AC00A13091 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E716184D1D3A15F500A13091 /* ViewController.swift */,
+				E79FF4491D3E104700B8B424 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				E716186C1D3A1C2D00A13091 /* MaterialDesignV.swift */,
 				E71618711D3A263700A13091 /* MaterialButton.swift */,
 				E71618731D3A2EFF00A13091 /* MaterialTF.swift */,
+				E79FF44B1D3E11E800B8B424 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -315,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79FF44A1D3E104700B8B424 /* FeedVC.swift in Sources */,
 				E71618701D3A1CDD00A13091 /* Constants.swift in Sources */,
 				E716184E1D3A15F500A13091 /* ViewController.swift in Sources */,
 				E71618721D3A263700A13091 /* MaterialButton.swift in Sources */,
@@ -323,6 +330,7 @@
 				E716186D1D3A1C2D00A13091 /* MaterialDesignV.swift in Sources */,
 				E71618741D3A2EFF00A13091 /* MaterialTF.swift in Sources */,
 				E7F5A41C1D3CDCC8004639DF /* DataService.swift in Sources */,
+				E79FF44C1D3E11E800B8B424 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
