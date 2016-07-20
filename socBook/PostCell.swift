@@ -8,14 +8,18 @@
 
 import UIKit
 import Firebase
+import Alamofire
+
 
 class PostCell: UITableViewCell {
 
     @IBOutlet weak var profileImg: UIImageView!
     @IBOutlet weak var showcaseImg: UIImageView!
+    @IBOutlet weak var descriptionTxt: UITextView!
+    @IBOutlet weak var likesLbl: UILabel!
     
-//    var post: Post!
-//    var request: Request?
+    var post: Post!
+    var request: Request?
 //    var likeRef: FIRDatabaseReference!
     
 
@@ -32,10 +36,28 @@ class PostCell: UITableViewCell {
     }
 
 
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    func configureCell(post: Post, img: UIImage?) {
+        self.post = post
+        
+        self.descriptionTxt.text = post.postDescription
+        self.likesLbl.text = "\(post.likes)"
+        
+        if post.imgUrl != nil {
+            if img != nil {
+                self.showcaseImg.image = img
+            } else {
+                
+                request = Alamofire.request(.GET, post.imgUrl!).validate(contentType: ["image/*"]).response(completionHandler: { request, response, data, err in
+                    if err == nil {
+                        if let img = UIImage(data: data!) {
+                            self.showcaseImg.image = img
+                            FeedVC.imageCache.setObject(img, forKey: self.post.imgUrl!)
+                        }
+                    }
+                })
+            }
+        } else {
+            self.showcaseImg.image = nil
+        }
     }
-
 }

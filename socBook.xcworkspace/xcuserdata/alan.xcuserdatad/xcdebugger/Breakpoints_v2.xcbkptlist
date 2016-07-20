@@ -17,6 +17,38 @@
             endingLineNumber = "82"
             landmarkName = "loginPressed(_:)"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "socBook.ViewController.(loginPressed (Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "socBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alan/SofDev/socBook/socBook/ViewController.swift"
+                  timestampString = "490701543.709273"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1146">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "socBook.ViewController.(loginPressed (Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;) -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "socBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alan/SofDev/socBook/socBook/ViewController.swift"
+                  timestampString = "490701543.709419"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1592">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

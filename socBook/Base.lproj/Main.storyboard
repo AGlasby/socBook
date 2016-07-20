@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -12,8 +12,10 @@
             <string>NotoSans-Bold</string>
             <string>NotoSans-Bold</string>
             <string>NotoSans-Bold</string>
+            <string>NotoSans-Bold</string>
         </mutableArray>
         <mutableArray key="NotoSans-Regular.ttf">
+            <string>NotoSans</string>
             <string>NotoSans</string>
             <string>NotoSans</string>
             <string>NotoSans</string>
@@ -38,7 +40,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="160"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign-in / Sign-up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyL-8O-bL3">
-                                        <rect key="frame" x="20" y="60" width="138.5" height="23.5"/>
+                                        <rect key="frame" x="20" y="60" width="139" height="24"/>
                                         <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="0.87" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -108,8 +110,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Jn-7K-J5R" customClass="MaterialDesignV" customModule="socBook" customModuleProvider="target">
                                 <rect key="frame" x="20" y="280" width="560" height="300"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Sign-in / Sign-up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hW0-Ph-qzQ">
-                                        <rect key="frame" x="20" y="20" width="200" height="23.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Email Sign-in / Sign-up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hW0-Ph-qzQ">
+                                        <rect key="frame" x="20" y="20" width="200" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="23" id="h6H-25-sgi"/>
                                             <constraint firstAttribute="width" constant="200" id="npe-1Z-ZHJ"/>
@@ -118,8 +120,8 @@
                                         <color key="textColor" white="0.0" alpha="0.87" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TCv-So-HBG" customClass="MaterialTF" customModule="socBook" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="63.5" width="532" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TCv-So-HBG" customClass="MaterialTF" customModule="socBook" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="64" width="532" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="xKe-SM-O8h"/>
                                         </constraints>
@@ -127,8 +129,8 @@
                                         <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="atR-M0-1JJ" customClass="MaterialTF" customModule="socBook" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="113.5" width="532" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="atR-M0-1JJ" customClass="MaterialTF" customModule="socBook" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="114" width="532" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Tqw-Sf-QG7"/>
                                         </constraints>
@@ -136,8 +138,8 @@
                                         <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze3-Fz-G8B" customClass="MaterialButton" customModule="socBook" customModuleProvider="target">
-                                        <rect key="frame" x="195" y="193.5" width="170" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze3-Fz-G8B" customClass="MaterialButton" customModule="socBook" customModuleProvider="target">
+                                        <rect key="frame" x="195" y="194" width="170" height="30"/>
                                         <color key="backgroundColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="213" id="2KF-Gu-9TQ"/>
@@ -215,13 +217,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vca-Nb-Uuo" customClass="MaterialDesignV" customModule="socBook" customModuleProvider="target">
+                                <rect key="frame" x="20" y="72" width="560" height="45"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="p1y-YS-2k2">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="45"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Talk about your app" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6fV-a9-OLE" customClass="MaterialTF" customModule="socBook" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="4" width="463" height="37"/>
+                                                <color key="backgroundColor" red="0.89411764705882346" green="0.89411764705882346" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="37" id="ESx-pD-09b"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="NotoSans" family="Noto Sans" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="BGG-86-5RI">
+                                                <rect key="frame" x="468" y="4" width="37" height="37"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="37" id="4BI-Tq-XXg"/>
+                                                    <constraint firstAttribute="height" constant="37" id="feN-IK-wYx"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="i6B-7M-RwL" appends="YES" id="OJV-YL-gL1"/>
+                                                </connections>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugv-dC-2Ct" customClass="MaterialButton" customModule="socBook" customModuleProvider="target">
+                                                <rect key="frame" x="510" y="4" width="50" height="37"/>
+                                                <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="0.88235294117647056" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="1LF-tT-9XW"/>
+                                                    <constraint firstAttribute="height" constant="37" id="vrJ-1m-IVg"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
+                                                <state key="normal" title="POST">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="makePost:" destination="DJL-dm-iNV" eventType="touchUpInside" id="tlI-AL-Cnk"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="LY4-fs-S98"/>
+                                    <constraint firstAttribute="trailing" secondItem="p1y-YS-2k2" secondAttribute="trailing" id="N44-f1-YpY"/>
+                                    <constraint firstAttribute="bottom" secondItem="p1y-YS-2k2" secondAttribute="bottom" id="S5I-I2-rBx"/>
+                                    <constraint firstItem="p1y-YS-2k2" firstAttribute="top" secondItem="vca-Nb-Uuo" secondAttribute="top" id="YPc-WU-lfI"/>
+                                    <constraint firstItem="p1y-YS-2k2" firstAttribute="leading" secondItem="vca-Nb-Uuo" secondAttribute="leading" id="e1z-mU-DmT"/>
+                                </constraints>
+                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="402" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="14m-mu-PqB">
-                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                                <rect key="frame" x="20" y="125" width="560" height="475"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="402" id="OH3-S6-vIH" customClass="PostCell" customModule="socBook" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="92" width="560" height="402"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" id="OH3-S6-vIH" customClass="PostCell" customModule="socBook" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="560" height="402"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OH3-S6-vIH" id="skd-P6-XDN">
                                             <rect key="frame" x="0.0" y="0.0" width="560" height="402"/>
@@ -286,7 +341,6 @@
                                                                 </stackView>
                                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YTL-nO-USm">
                                                                     <rect key="frame" x="0.0" y="60" width="528" height="49"/>
-                                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="KDg-fS-skN"/>
                                                                     </constraints>
@@ -348,6 +402,8 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
+                                            <outlet property="descriptionTxt" destination="YTL-nO-USm" id="jne-Ra-vih"/>
+                                            <outlet property="likesLbl" destination="dAw-xg-cbi" id="ibg-Qy-e8M"/>
                                             <outlet property="profileImg" destination="YNP-Lc-Rwx" id="IAH-zv-enO"/>
                                             <outlet property="showcaseImg" destination="Ue2-Yh-9jA" id="qpd-Tc-Q0M"/>
                                         </connections>
@@ -358,17 +414,33 @@
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="14m-mu-PqB" firstAttribute="top" secondItem="jaS-nu-ah0" secondAttribute="bottom" id="LFg-ri-Y0d"/>
+                            <constraint firstItem="vca-Nb-Uuo" firstAttribute="top" secondItem="jaS-nu-ah0" secondAttribute="bottom" constant="8" id="MPV-Iq-SOH"/>
+                            <constraint firstItem="vca-Nb-Uuo" firstAttribute="leading" secondItem="hL7-Ql-zTw" secondAttribute="leadingMargin" id="Pec-TJ-sgS"/>
                             <constraint firstItem="14m-mu-PqB" firstAttribute="leading" secondItem="hL7-Ql-zTw" secondAttribute="leadingMargin" id="XKE-D2-gGd"/>
                             <constraint firstItem="14m-mu-PqB" firstAttribute="trailing" secondItem="hL7-Ql-zTw" secondAttribute="trailingMargin" id="YDC-Mf-K9P"/>
+                            <constraint firstItem="14m-mu-PqB" firstAttribute="top" secondItem="vca-Nb-Uuo" secondAttribute="bottom" constant="8" id="ibz-ew-eV8"/>
                             <constraint firstItem="bC5-y6-aee" firstAttribute="top" secondItem="14m-mu-PqB" secondAttribute="bottom" id="jZp-Ao-N3l"/>
+                            <constraint firstItem="vca-Nb-Uuo" firstAttribute="trailing" secondItem="hL7-Ql-zTw" secondAttribute="trailingMargin" id="rW9-XT-LPz"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="LFg-ri-Y0d"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="NFR-pj-Fx1"/>
                     <connections>
+                        <outlet property="imageSelectorImage" destination="BGG-86-5RI" id="oUa-Ly-1mW"/>
+                        <outlet property="postField" destination="6fV-a9-OLE" id="NIh-pt-aEP"/>
                         <outlet property="tableView" destination="14m-mu-PqB" id="q7R-S1-Qmq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9r-sw-5Cr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="i6B-7M-RwL">
+                    <connections>
+                        <action selector="selectImage:" destination="DJL-dm-iNV" id="QgQ-Ag-38F"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1676" y="376"/>
         </scene>
@@ -393,6 +465,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera" width="50" height="50"/>
         <image name="code-icon-logo" width="318" height="281"/>
         <image name="fb-icon" width="65" height="65"/>
         <image name="heart-empty" width="150" height="147"/>
