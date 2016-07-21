@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7FDBE077F741A0807F3969AB /* Pods_socBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1807641B32BAE1110D1F8B /* Pods_socBook.framework */; };
+		E70E77601D410E0A00EFAFAB /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E775F1D410E0A00EFAFAB /* ProfileVC.swift */; };
+		E70E77621D411B5200EFAFAB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E77611D411B5200EFAFAB /* User.swift */; };
 		E716184C1D3A15F500A13091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E716184B1D3A15F500A13091 /* AppDelegate.swift */; };
 		E716184E1D3A15F500A13091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E716184D1D3A15F500A13091 /* ViewController.swift */; };
 		E71618511D3A15F500A13091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E716184F1D3A15F500A13091 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		552513CDB0EACCEA03943429 /* Pods-socBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-socBook/Pods-socBook.release.xcconfig"; sourceTree = "<group>"; };
 		B364D5125F443884F9915B3D /* Pods-socBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socBook/Pods-socBook.debug.xcconfig"; sourceTree = "<group>"; };
+		E70E775F1D410E0A00EFAFAB /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E70E77611D411B5200EFAFAB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E71618481D3A15F500A13091 /* socBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E716184B1D3A15F500A13091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E716184D1D3A15F500A13091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 			children = (
 				E716184D1D3A15F500A13091 /* ViewController.swift */,
 				E79FF4491D3E104700B8B424 /* FeedVC.swift */,
+				E70E775F1D410E0A00EFAFAB /* ProfileVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				E7808DE51D3E63B600DC33B7 /* Post.swift */,
+				E70E77611D411B5200EFAFAB /* User.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -324,6 +330,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70E77621D411B5200EFAFAB /* User.swift in Sources */,
+				E70E77601D410E0A00EFAFAB /* ProfileVC.swift in Sources */,
 				E79FF44A1D3E104700B8B424 /* FeedVC.swift in Sources */,
 				E7808DE61D3E63B600DC33B7 /* Post.swift in Sources */,
 				E71618701D3A1CDD00A13091 /* Constants.swift in Sources */,
